@@ -44,6 +44,10 @@ importers:
       eslint-config-airbnb:
         specifier: ^19.0.4
         version: 19.0.4(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.18.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0))(eslint-plugin-jsx-a11y@6.9.0(eslint@9.8.0))(eslint-plugin-react-hooks@4.6.2(eslint@9.8.0))(eslint-plugin-react@7.35.0(eslint@9.8.0))(eslint@9.8.0)
+    devDependencies:
+      eslint:
+        specifier: ^9.8.0
+        version: 9.8.0
 
   packages/eslint-config-dotori-import-sort: {}
 
