@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-dotori-typescript",
+  "private": false,
+  "version": "0.0.0",
+  "description": "dotori-typescript eslint config",
+  "keywords": [
+    "eslint-config",
+    "dotori",
+    "eslint-config-dotori-typescript"
+  ],
+  "author": "LEE DONG GYU <tenenger7125@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test eslint-config-dotori-typescript"
+  }
+}
