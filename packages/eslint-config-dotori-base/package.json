@@ -6,12 +6,15 @@
   "keywords": [
     "eslint-config",
     "dotori",
-    "eslint-config-dotori"
+    "eslint-config-dotori-base"
   ],
   "author": "LEE DONG GYU <tenenger7125@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo test eslint-config-dotori-base"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4"
   }
 }
