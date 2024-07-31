@@ -15,6 +15,7 @@
     "test": "echo test eslint-config-dotori-typescript"
   },
   "dependencies": {
-    "eslint-config-airbnb-typescript": "^18.0.0"
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.29.1"
   }
 }
