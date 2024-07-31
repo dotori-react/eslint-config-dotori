@@ -8,8 +8,5 @@ module.exports = {
     ecmaVersion: 'es2020',
     sourceType: 'module',
   },
-  extends: [
-    'airbnb-base',
-    'eslint:recommended',
-  ],
+  extends: ['airbnb-base', 'eslint:recommended', './rules.js'],
 };
