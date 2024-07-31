@@ -1,17 +1,5 @@
 module.exports = {
   rules: {
-    'react/jsx-sort-props': [
-      2,
-      {
-        callbacksLast: true,
-        shorthandFirst: false,
-        shorthandLast: true,
-        multiline: last,
-        ignoreCase: true,
-        reservedFirst: true,
-        noSortAlphabetically: false,
-      },
-    ],
     'import/order': [
       'error',
       {
