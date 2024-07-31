@@ -7,9 +7,8 @@ module.exports = {
         pathGroups: [
           { pattern: 'react', group: 'builtin', position: 'before' },
           { pattern: '{react-dom,react-dom/**}', group: 'builtin', position: 'before' },
-
           { pattern: '{@/**}', group: 'internal', position: 'before' },
-
+          { pattern: '**/*.{css,scss,less,sass}', group: 'object', position: 'before' },
           { pattern: '*', group: 'external', position: 'after' },
         ],
         distinctGroup: false,
@@ -19,6 +18,7 @@ module.exports = {
           order: 'asc',
           caseInsensitive: true,
         },
+        warnOnUnassignedImports: true,
       },
     ],
   },
