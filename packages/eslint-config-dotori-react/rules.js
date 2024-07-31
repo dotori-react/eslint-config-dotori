@@ -6,7 +6,7 @@ module.exports = {
         callbacksLast: true,
         shorthandFirst: false,
         shorthandLast: true,
-        multiline: last,
+        multiline: 'last',
         ignoreCase: true,
         reservedFirst: true,
         noSortAlphabetically: false,
