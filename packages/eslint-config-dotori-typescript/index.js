@@ -10,6 +10,7 @@ module.exports = {
   },
   extends: [
     'airbnb-typescript',
+    'plugin:import/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     './rules.js',
