@@ -9,6 +9,11 @@
     "eslint-config-dotori-base"
   ],
   "author": "LEE DONG GYU <tenenger7125@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotori-react/eslint-config-dotori.git"
+  },
+  "homepage": "https://github.com/dotori-react/eslint-config-dotori",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
