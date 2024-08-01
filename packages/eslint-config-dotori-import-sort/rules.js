@@ -3,16 +3,22 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: ['builtin', 'external', 'internal', 'unknown', ['parent', 'sibling', 'index'], 'object', 'type'],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type', 'unknown'],
         pathGroups: [
           { pattern: 'react', group: 'builtin', position: 'before' },
           { pattern: '{react-dom,react-dom/**}', group: 'builtin', position: 'before' },
-          { pattern: '{@/**}', group: 'internal', position: 'before' },
-          { pattern: '**/*.{css,scss,less,sass}', group: 'object', position: 'before' },
-          { pattern: '*', group: 'external', position: 'after' },
+
+          {
+            pattern: '*.+(css|sass|less|scss|pcss|styl)',
+            group: 'unknown',
+            patternOptions: { matchBase: true },
+            position: 'before',
+          },
+
+          { pattern: '@/**', group: 'internal', position: 'before' },
         ],
         distinctGroup: false,
-        pathGroupsExcludedImportTypes: ['react'],
+        pathGroupsExcludedImportTypes: ['react', 'object', 'type'],
         'newlines-between': 'always',
         alphabetize: {
           order: 'asc',
