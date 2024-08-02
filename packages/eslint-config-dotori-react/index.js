@@ -20,5 +20,5 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: ['react-refresh'],
+  plugins: ['eslint-plugin-react-refresh'],
 };
