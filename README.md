@@ -15,7 +15,25 @@ npm install eslint-config-dotori-base eslint-config-dotori-react eslint-config-d
 and please install peerDependencies
 
 ```bash
-npm install eslint --save-dev
+npm install eslint eslint-import-resolver-typescript --save-dev
+```
+
+### Reference
+
+> Why peerDependency install eslint-import-resolver-typescript
+
+- if you establish absolute path in your project, then you require import/resolver
+- so eslint-config-dotori-typescript is default tsconfig project path `./tsconfig.json`
+- but your tsconfig file is not located in root or not matched filename then custom your tsconfig project path;
+
+```js
+settings: {
+    'import/resolver': {
+      typescript: {
+        project: './tsconfig.json' // you can customize tsconfig project path
+      },
+    },
+  },
 ```
 
 ## Usage
@@ -40,6 +58,7 @@ This project is licensed under the MIT License.
 ## Related
 
 - eslint
+- eslint-import-resolver-typescript
 - eslint-config-airbnb-base
 - eslint-config-airbnb-typescript
 - eslint-config-prettier
