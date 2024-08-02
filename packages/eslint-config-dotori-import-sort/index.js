@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    ecmaVersion: 'es2020',
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
   extends: ['plugin:import/recommended', './rules.js'],
