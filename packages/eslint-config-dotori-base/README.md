@@ -13,6 +13,12 @@ To install the package, use the following commands:
 npm install eslint-config-dotori-base --save-dev
 ```
 
+and please install peerDependencies
+
+```bash
+npm install eslint --save-dev
+```
+
 ## Usage
 
 Extend your ESLint configuration file (.eslintrc.js or .eslintrc.json) as follows:
@@ -31,5 +37,6 @@ This project is licensed under the MIT License.
 
 ## Related
 
+- eslint
 - eslint-config-airbnb-base
 - eslint-config-prettier
