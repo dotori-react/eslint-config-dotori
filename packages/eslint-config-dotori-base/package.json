@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dotori-base",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "dotori eslint config",
   "keywords": [
     "eslint-config",
@@ -20,7 +20,8 @@
     "test": "echo test eslint-config-dotori-base"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^19.0.4"
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0"
   },
   "devDependencies": {
     "eslint": "^9.8.0"
