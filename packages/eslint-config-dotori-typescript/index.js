@@ -14,14 +14,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'eslint-import-resolver-typescript',
     './rules.js',
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-  settings: {
-    'import/resolver': {
-      typescript: {},
-    },
-  },
 };
