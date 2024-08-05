@@ -24,11 +24,11 @@ Extend your ESLint configuration file (.eslintrc.js or .eslintrc.json) as follow
 
 ```javascript
 {
-  "extends": [
-    "eslint-config-dotori-react",
-    "eslint-config-dotori-import-sort",
-    "eslint-config-dotori-base",
-    "eslint-config-dotori-typescript",
+  extends: [
+    'eslint-config-dotori-base',
+    'eslint-config-dotori-react',
+    'eslint-config-dotori-typescript',
+    'eslint-config-dotori-import-sort',
   ]
 }
 ```
