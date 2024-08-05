@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       eslint:
-        specifier: ^9.8.0
-        version: 9.8.0
+        specifier: ^8.2.0
+        version: 8.57.0
       lerna:
         specifier: ^8.1.7
         version: 8.1.7(encoding@0.1.13)
