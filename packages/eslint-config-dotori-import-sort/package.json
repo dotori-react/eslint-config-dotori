@@ -18,5 +18,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo test eslint-config-dotori-import-sort"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.29.1"
   }
 }
