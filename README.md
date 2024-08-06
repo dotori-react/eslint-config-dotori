@@ -26,8 +26,8 @@ Extend your ESLint configuration file (.eslintrc.js or .eslintrc.json) as follow
 {
   extends: [
     'eslint-config-dotori-base',
-    'eslint-config-dotori-react',
     'eslint-config-dotori-typescript',
+    'eslint-config-dotori-react',
     'eslint-config-dotori-import-sort',
   ]
 }
@@ -36,12 +36,3 @@ Extend your ESLint configuration file (.eslintrc.js or .eslintrc.json) as follow
 ## License
 
 This project is licensed under the MIT License.
-
-## Related
-
-- eslint
-- eslint-config-airbnb-base
-- eslint-config-airbnb-typescript
-- eslint-config-prettier
-- eslint-plugin-import
-- eslint-plugin-react-refresh

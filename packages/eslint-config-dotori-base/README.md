@@ -34,9 +34,3 @@ Extend your ESLint configuration file (.eslintrc.js or .eslintrc.json) as follow
 ## License
 
 This project is licensed under the MIT License.
-
-## Related
-
-- eslint
-- eslint-config-airbnb-base
-- eslint-config-prettier
