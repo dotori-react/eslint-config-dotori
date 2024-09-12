@@ -4,10 +4,20 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "commit": "cz"
+  },
   "devDependencies": {
+    "@tenenger/git-cz": "^0.0.1",
+    "commitizen": "^4.3.0",
     "eslint": "^8.2.0",
     "lerna": "^8.1.7",
     "pnpm": "^9.6.0",
     "prettier": "^3.3.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@tenenger/git-cz"
+    }
   }
 }
