@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@tenenger/git-cz':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       commitizen:
         specifier: ^4.3.0
         version: 4.3.0(@types/node@22.5.4)(typescript@5.5.4)
@@ -432,8 +432,8 @@ packages:
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
 
-  '@tenenger/git-cz@0.0.1':
-    resolution: {integrity: sha512-XQru3cn3SMeizNVezIG/3WmtFL1I1W/H31wHCfh2Spyq70qdS3kDbnm5J+fskIXLJYmtKQSwTok+LKs0NNuAVA==}
+  '@tenenger/git-cz@0.0.2':
+    resolution: {integrity: sha512-q3WQTzhBfcw5C1Zi9OhcnxxEBIhXSOfG8J2rxZt3iiZdsZdnYTy+z4YxwH13cgdkYl6/Kuz7TjmdxVT2EL9upA==}
     hasBin: true
 
   '@tufjs/canonical-json@2.0.0':
@@ -3785,7 +3785,7 @@ snapshots:
 
   '@sinclair/typebox@0.27.8': {}
 
-  '@tenenger/git-cz@0.0.1': {}
+  '@tenenger/git-cz@0.0.2': {}
 
   '@tufjs/canonical-json@2.0.0': {}
 
