@@ -18,5 +18,5 @@ module.exports = {
     './rules.js',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'unused-imports'],
 };
