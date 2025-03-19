@@ -33,12 +33,15 @@ Extend your ESLint configuration file (.eslintrc.js or .eslintrc.json) as follow
 }
 ```
 
+### Next.js
+
 If your project is implemented using Next.js, you may need to install the missing package.
 
 ```bash
 npm i @typescript-eslint/parser --save-dev
 ```
 
+If your project is implemented using Next.js with Eslint @8^.
 Extend your ESLint configuration file (.eslintrc.js or .eslintrc.json) as follows:
 
 ```json
@@ -56,6 +59,47 @@ Extend your ESLint configuration file (.eslintrc.js or .eslintrc.json) as follow
     "project": "./tsconfig.json"
   }
 }
+```
+
+If your project is implemented using Next.js with Eslint @9^.
+Extend your ESLint configuration file (.eslint.config.mjs or .eslint.config.js) as follows:
+
+```js
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+import { FlatCompat } from '@eslint/eslintrc';
+import js from '@eslint/js';
+import tsParser from '@typescript-eslint/parser';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+});
+
+const eslintConfig = [
+  ...compat.extends(
+    'next/core-web-vitals',
+    'next/typescript',
+    'eslint-config-dotori-base',
+    'eslint-config-dotori-typescript',
+    'eslint-config-dotori-react',
+    'eslint-config-dotori-import-sort',
+  ),
+  {
+    languageOptions: {
+      parser: tsParser,
+      parserOptions: {
+        project: './tsconfig.json',
+      },
+    },
+  },
+];
+
+export default eslintConfig;
 ```
 
 ## License
