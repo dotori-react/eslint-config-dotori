@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dotori-react",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "dotori-react eslint config",
   "keywords": [
     "eslint-config",
