@@ -6,4 +6,5 @@ module.exports = {
     node: true,
   },
   extends: ['./packages/eslint-config-dotori-base/index.js'],
+  ignorePatterns: ['**/*.ts'],
 };
