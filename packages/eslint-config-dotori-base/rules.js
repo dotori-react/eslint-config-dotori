@@ -20,5 +20,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'import/prefer-default-export': 'off',
+    curly: ['error', 'multi-line'],
+    'arrow-body-style': ['error', 'as-needed'],
   },
 };
